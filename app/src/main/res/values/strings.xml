@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ejercicios_Layouts</string>
+    <string name="login">Login</string>
+    <string name="numeros">Numeros de calculadora</string>
+    <string name="calcAnt">Calculadora antigua</string>
+    <string name="calcNue">Calculadora nueva</string>
+</resources>
