@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.htcdiurno.ejercicios_layouts.CalculadoraAntigua">
+    android:stretchColumns="3">
 
-</android.support.constraint.ConstraintLayout>
+    <TableRow>
+
+        <Button
+            android:id="@+id/numero_1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/numero_2"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/numero_3"
+            android:text="3" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/numero_4"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/numero_5"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/numero_6"
+            android:text="6" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/numero_7"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/numero_8"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/numero_9"
+            android:text="9" />
+
+    </TableRow>
+
+</TableLayout>
