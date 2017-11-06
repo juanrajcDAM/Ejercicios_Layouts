@@ -19,7 +19,8 @@
         <activity android:name=".Login" />
         <activity android:name=".Numeros" />
         <activity android:name=".CalculadoraAntigua" />
-        <activity android:name=".CalculadoraNueva"></activity>
+        <activity android:name=".CalculadoraNueva" />
+        <activity android:name=".Receta"></activity>
     </application>
 
 </manifest>

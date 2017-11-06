@@ -32,4 +32,11 @@
         android:text="@string/calcNue"
         android:onClick="mostrar_CalculadoraNueva"/>
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receta (Constraints)"
+        android:onClick="mostrar_Receta"/>
+
 </LinearLayout>
